@@ -1,0 +1,35 @@
+#Goal: Develop a customer grading schema for an offline retail store
+#Objective: To find Loyal customers 
+
+#Introduction:
+We need to address the fact that it is an offline retail store so this proposition limits plenty of options which we could have used in case of any previously established database, however this also allows us to tap into more un-usual ways from which we can extract information needed to extract the loyal customers.
+
+#Factors Affecting Loyalty:
+Loyalty can be mathematically expressed by understanding Frequency of (x) number of customers visiting to a same shop “S” from a pool of total (y) customers in a given period of time:-
+F(S) = x/y
+By this simple equation it will be inside the range 0-1 where 0 being “No loyal customer” and 1 being “All are loyal customers” however this is a hypothetical case. In reality there are various factors which affect loyalty.
+1.	Satisfaction – A loyal customer is someone who is satisfied by either the service provided or the product quality provided or by both.
+2.	Price – A loyal customer is the one who finds the pricing genuine from others in the same market
+3.	Loyalty Programs – A customer tends to be more loyal when there are rewards given as incentives
+4.	Convenience – Another factor determining the loyalty of a customer is if he/she is being provided with a convenient mode of purchase or any other service
+5.	True Loyal – The most difficult category to express mathematically where Loyal customer is hitched to a particular shop for no explicit reason or for reasons which cannot be mathematically factored in.
+
+#Metrics which can be used:
+Loyalty can be mathematically deduced if we can find a correlation of all the previous 5 factors in mathematical figures. For the same we can use following metrics:
+1.	CRR (Customer Retention Rate) – If net new customer addition is not affecting the total customer added till that point then CRR is high which means the customers are loyal to the shop. In this case we will be looking for the net change in total number of customers from one month to another where new customers became a part of both the values.
+2.	Existing Customer revenue growth rate – Very similar to previous one, if there is a net % increase in the revenue contribution by an existing customer every audit cycle then this contributes towards loyalty factors. 
+3.	Repeat Purchase Ratio – If a product say “P1” is newly introduced and is purchased by “X1” over and over again in a span of a few weeks or months then “X1” will be ranked high on loyalty index due to the fact that the repeat purchase ratio will be more.
+4.	CLV (Customer Lifetime Value) – It is a metric widely used to establish top contributors towards the overall purchases from the shop in a given span of time. This includes CPV (Customer Perceived Value) which is an estimate of the future contribution by a customer as well as the current one towards the purchases. 
+5.	Net Promotion Score – This is used to identify potential customers who are satisfied with the service provided and allowing an active addition of more customers via self promotion. This can be word of mouth or bringing them physically too.
+
+#Summary:
+Let us understand CLV (Customer Lifetime Value) metric with this example:-
+Here we can clearly see and establish that in a year, Customer 103 has contributed maximum followed by Customer 101 with more than 55% of total earning in a year towards purchases. This clearly represents that there is a highly likely possibility of these two customers being loyal.
+  
+Let us understand Repeat Purchase Ratio metric with this example:-
+Here although the frequency of product P105 is maximum this is 12 times however the actual contribution is near 12%. Hence we can establish that using this metric, Customer 101 and Customer 104 fare better in terms of being loyal to the store. 
+ 
+If we join both these metrics then we will be able to establish that Customer 101,104 and 103 are loyal customers and thus if we are able to combine the other metrics as well, we will be able to establish who are the top contributors to the store.
+
+#Misc:
+There are other emotional factors which come into play like behaviour of the shop owner, interpersonal skills, compassion towards the customers and others which cannot be mathematically factored in but play a significant role in growing the loyal customer numbers effectively. Gender is one such factor apart from Presentation and crisis handling. 
